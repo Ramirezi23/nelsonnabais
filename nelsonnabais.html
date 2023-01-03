@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Nelson Nabais
+    </title>
+
+    <style>
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 20px;
+      }
+
+      .button-youtube {
+        height: 200px;
+        width: 100%;
+        background-color: white;
+        border: 2px;
+        border-color: red;
+        border-style: solid;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-youtube:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .button-audio {
+        height: 200px;
+        width: 100%;
+        border: 2px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 20px;
+        padding-top: 0;
+        background-color: black;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-audio:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .button-exercicios {
+        height: 200px;
+        width: 100%;
+        padding-top: 0;
+        border: 2px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 20px;
+        background-color: black;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-exercicios:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .button-cv {
+        height: 200px;
+        width: 100%;
+        border: 2px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 20px;
+        background-color: rgb(171, 26, 26);
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-cv:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .button-developers {
+        height: 200px;
+        width: 100%;
+        border: 2px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 20px;
+        padding-top: 0;
+        background-color: rgb(25, 14, 96);
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-developers:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .button-tools {
+        height: 200px;
+        width: 100%;
+        border: 2px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 20px;
+        padding-top: 0;
+        background-color: rgb(100, 177, 172);
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .button-tools:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+      }
+
+      .marquee-text {
+        font-family: Roboto, Arial;
+        font-size: 40px;
+        font-weight: 700;
+      }
+
+      body {
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: rgb(234, 224, 200);
+        margin: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <marquee direction="right" scroolamount="10" scrooldelay="1000">
+      <h1 class="marquee-text">
+        <img src="thumbnails/skate.png" width="50" height="50">
+          Home Page 
+        <img src="thumbnails/skate.png" width="50" height="50">
+      </h1> 
+    </marquee>
+    <div class="grid">
+      <div>
+        <button class="button-cv">
+          <a href="CVandBackground.html" target="_self">
+            <img src="thumbnails/avatar.webp" height="160px" width="250px" title="CV & Hobbies">
+          </a>  
+        </button>
+      </div>
+      <div>
+        <button class="button-audio">
+          <a href="audio.html" target="_self">
+            <img src="thumbnails/post-malone.jpg" height="196px" width="250px" title="Audio">
+          </a>
+        </button>
+      </div>
+      <div>
+        <button class="button-exercicios">
+          <a href="exercicios.html" target="_self">
+            <img src="thumbnails/physics-1.jpg" height="197px" width="300px" title="Exercícios HTML">
+          </a>
+        </button>
+      </div>
+      <div>
+        <button class="button-developers">
+          <a href="Developers.html" target="_self">
+            <img src="thumbnails/devs.webp " height="196px" width="300px" title="Developers">
+          </a> 
+        </button>
+      </div>
+      <div>
+        <button class="button-tools">
+          <a href="Tools.html" target="_self">
+           <img src="thumbnails/android-dev-tools.jpg" height="196px" width="230px" title="Tools">
+          </a>
+        </button>
+      </div>
+      <div>
+        <button class="button-youtube">
+          <a href="youtube.html" target="_self">
+            <img src="thumbnails/channels4_profile.jpg" height="195px" width="200px" title="Youtube Clone">
+          </a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
